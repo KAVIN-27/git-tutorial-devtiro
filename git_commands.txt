@@ -61,3 +61,9 @@ git branch
 
 # 17. View Commit History
 git log --oneline --graph --decorate --all
+
+
+#18. Intial commit to the remote repo
+git remote add origin https://github.com/your-username/my-project.git
+git branch -M main
+git push -u origin main
